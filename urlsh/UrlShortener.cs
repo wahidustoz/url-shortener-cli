@@ -4,12 +4,6 @@ public class UrlShortener
     private readonly Dictionary<string, string> urlDictionary = new();
     private readonly Dictionary<string, string> shortCodeDictionary = new();
     private int counter = 1;  // Счетчик для создания уникальных кодов
-    private readonly string baseHost;  // Основной хост для сокращенных ссылок
-
-    public UrlShortener(string host = "https://url.ilmhub.uz")
-    {
-        baseHost = host;
-    }
 
     // Метод для сокращения URL
     public string ShortenUrl(string longUrl)
@@ -48,6 +42,6 @@ public class UrlShortener
     // Метод для генерации короткого кода
     private string GenerateShortCode()
     {
-        return "url" + counter++;
+        return "https://ilmhub.uz/AAA" + counter++;
     }
 }
