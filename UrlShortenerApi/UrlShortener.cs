@@ -11,6 +11,7 @@ public class UrlShortener
         baseHost = host;
     }
 
+
     // Метод для сокращения URL
     public string ShortenUrl(string longUrl)
     {
@@ -51,3 +52,4 @@ public class UrlShortener
         return "url" + counter++;
     }
 }
+
