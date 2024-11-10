@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1lAmaY5A60s=",
+  "success": true,
+  "projectFilePath": "D:\\Apps\\IlmhubProjs\\url_shortener_app\\url-shortener-cli\\url-shortener-cli.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\spectre.console\\0.49.1\\spectre.console.0.49.1.nupkg.sha512"
+  ],
+  "logs": []
+}
