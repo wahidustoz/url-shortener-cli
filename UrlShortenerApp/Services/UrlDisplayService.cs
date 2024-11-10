@@ -12,8 +12,5 @@ public class UrlDisplayService : IUrlDisplayService
         }
     }
 
-    public void DisplayPaginatedUrls(int pageNumber)
-    {
-        // Paginasiyalash uchun kodni shu yerda qo'shing
-    }
+ 
 }
