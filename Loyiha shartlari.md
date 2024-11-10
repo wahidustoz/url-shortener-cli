@@ -1,5 +1,6 @@
 
 # Ilmhub URL Shortener - Loyiha shartlari
+---
 
 ## Asosiy Funktsional Talablar
 
@@ -27,19 +28,21 @@
 - QR kod yaratish uchun `Net.Codecrete.QrCodeGenerator` paketidan foydalaning.
 
 6. **Qisqartirilgan URL uchun maxsus Hostname:**  
-   Qisqartirilgan URL'larning asosiy __hostname__ini quyidagilar orqali sozlash mumkin bo'lishi kerak:
-   - `HOSTNAME` env. variable o'zgaruvchisidan o'qish. [👉 Batafsil] (https://learn.microsoft.com/en-us/dotnet/api/system.environment.getenvironmentvariable?view=net-8.0)
-   - CommandLine argumentidan o'qish. [👉 Batafsil] (https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/main-command-line)
+   Qisqartirilgan URL'larning asosiy _hostname_ ini quyidagilar orqali sozlash mumkin bo'lishi kerak:
+   - `HOSTNAME` env. variable o'zgaruvchisidan o'qish. *[👉 Batafsil](https://learn.microsoft.com/en-us/dotnet/api/system.environment.getenvironmentvariable?view=net-8.0)*
+   - CommandLine argumentidan o'qish. *[👉 Batafsil](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/main-command-line)*
    - Agar hostname `env. variable` yoki `CommandLine argument`dan topilmasa, default qiymat sifatida `https://url.ilmhub.uz` ishlatiladi.
 
 7. **Ma'lumotlarni xotirada saqlash:**  
 - URL'larni saqlash va olish uchun samarali ma'lumotlar strukturasidan foydalanish kerak.
 - Aql bilan istalgan tip tanlang, masalan Dictionary.
+---
 
 ## Qo'shimcha Talablar
 
 - **Console Interfeysi**: Interfeys foydalanuvchi uchun qulay va tushunarli bo'lishi kerak.
 - **Exception Handling**: Noto'g'ri kirishlar bo'lsa, xatoliklarni samarali usulda qayta ishlash va foydalanuvchiga ma'lumot berish kerak.
+---
 
 ## Interface'lar
 Quyidagi interfacelar (kontraktlar) asosida implementatsiya qiling.
@@ -101,6 +104,7 @@ public interface IConfigService
     string GetBaseHostname();
 }
 ```
+---
 
 ## Xotiradagi Ma'lumotlarni Saqlash Uchun Taklif Qilingan Ma'lumotlar Strukturalari
 > Quyidgai ma'lumotlar faqatgina yordam sifatida taqdim etilyapti. Bu qismiga to'liq rioya qilmasdan boshqacha implementatsiya qilish mumkin. 
@@ -125,6 +129,7 @@ public interface IConfigService
 
 4. **Paginasiyalash uchun List:**  
    URL'larni ko'rsatishda `Dictionary` qiymatlaridan `List<Url>` ga o'tib, paginasiyalashni amalga oshirish mumkin.
+---
 
 ## Rubrikalar (baholash mezonlari)
 
