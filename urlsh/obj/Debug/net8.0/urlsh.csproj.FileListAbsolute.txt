@@ -1,0 +1,15 @@
+D:\ilmhub\url-shortener-cli\urlsh\bin\Debug\net8.0\urlsh.exe
+D:\ilmhub\url-shortener-cli\urlsh\bin\Debug\net8.0\urlsh.deps.json
+D:\ilmhub\url-shortener-cli\urlsh\bin\Debug\net8.0\urlsh.runtimeconfig.json
+D:\ilmhub\url-shortener-cli\urlsh\bin\Debug\net8.0\urlsh.dll
+D:\ilmhub\url-shortener-cli\urlsh\bin\Debug\net8.0\urlsh.pdb
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\urlsh.GeneratedMSBuildEditorConfig.editorconfig
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\urlsh.AssemblyInfoInputs.cache
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\urlsh.AssemblyInfo.cs
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\urlsh.csproj.CoreCompileInputs.cache
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\urlsh.sourcelink.json
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\urlsh.dll
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\refint\urlsh.dll
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\urlsh.pdb
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\urlsh.genruntimeconfig.cache
+D:\ilmhub\url-shortener-cli\urlsh\obj\Debug\net8.0\ref\urlsh.dll
