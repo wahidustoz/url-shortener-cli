@@ -2,12 +2,6 @@
 using System.Collections.Generic;
 using url.shortener.cli.urlsh;
 
-string host = Environment.GetEnvironmentVariable("HOSTNAME") ?? "https://url.ilmhub.uz";
-if (args.Length > 0)
-{
-    host = args[0];
-}
-
 UrlShortener urlShortener = new UrlShortener(host);
 
 Console.WriteLine("Введите длинный URL для сокращения:");
