@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\UrlShorterer\\UrlShorterer.csproj": {}
+    "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\urlshorterer\\urlshorterer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\UrlShorterer\\UrlShorterer.csproj": {
+    "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\urlshorterer\\urlshorterer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\UrlShorterer\\UrlShorterer.csproj",
-        "projectName": "UrlShorterer",
-        "projectPath": "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\UrlShorterer\\UrlShorterer.csproj",
+        "projectUniqueName": "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\urlshorterer\\urlshorterer.csproj",
+        "projectName": "urlshorterer",
+        "projectPath": "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\urlshorterer\\urlshorterer.csproj",
         "packagesPath": "C:\\Users\\Devoloper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\UrlShorterer\\obj\\",
+        "outputPath": "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\urlshorterer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Devoloper\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "00cGwIyBUFUls282Et4p7Vh2hY+Uas/jwrt+m6qZGGJv9UTG/vXDTpqjIb9KCEU6TQxOgG4cVIWpbNCETJvmLA==",
+  "dgSpecHash": "BrnHctbMR3FPcuQV7bwgvujqOmUtX+3+zBRgqUQZYU7RI40U1HSTOECY2Lz/KUkS1LJumL9uyInE03f70dBHEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\UrlShorterer\\UrlShorterer.csproj",
+  "projectFilePath": "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\urlshorterer\\urlshorterer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Devoloper\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
     "C:\\Users\\Devoloper\\.nuget\\packages\\net.codecrete.qrcodegenerator\\2.0.5\\net.codecrete.qrcodegenerator.2.0.5.nupkg.sha512",
