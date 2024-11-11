@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "00cGwIyBUFUls282Et4p7Vh2hY+Uas/jwrt+m6qZGGJv9UTG/vXDTpqjIb9KCEU6TQxOgG4cVIWpbNCETJvmLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Devoloper\\Desktop\\c#\\dotnetBootcamp\\url-shortener-cli\\UrlShorterer\\UrlShorterer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Devoloper\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Devoloper\\.nuget\\packages\\net.codecrete.qrcodegenerator\\2.0.5\\net.codecrete.qrcodegenerator.2.0.5.nupkg.sha512",
+    "C:\\Users\\Devoloper\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512",
+    "C:\\Users\\Devoloper\\.nuget\\packages\\spectre.console\\0.49.1\\spectre.console.0.49.1.nupkg.sha512",
+    "C:\\Users\\Devoloper\\.nuget\\packages\\spectre.console.cli\\0.49.1\\spectre.console.cli.0.49.1.nupkg.sha512",
+    "C:\\Users\\Devoloper\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
