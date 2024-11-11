@@ -76,8 +76,12 @@ void GetProcess(string temp)
             new UrlDisplayService().DisplayUrls(AllDatas.AllUrls.Values);
             break;
         }  
-        else 
+        else if(consoleOptions[temp] == 4)
         {
+            var qrCodeGeneratorService = new QrCodeService();
+
+            qrCodeGeneratorService.DisplayQrCode();
+            break;
         }
         Console.Clear();
     }

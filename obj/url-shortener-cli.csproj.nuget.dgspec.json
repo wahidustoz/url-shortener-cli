@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Net.Codecrete.QrCodeGenerator": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            },
             "Spectre.Console": {
               "target": "Package",
               "version": "[0.49.1, )"

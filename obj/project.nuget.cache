@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1lAmaY5A60s=",
+  "dgSpecHash": "GGggIryCaV8=",
   "success": true,
   "projectFilePath": "D:\\Apps\\IlmhubProjs\\url_shortener_app\\url-shortener-cli\\url-shortener-cli.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\net.codecrete.qrcodegenerator\\2.0.5\\net.codecrete.qrcodegenerator.2.0.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\spectre.console\\0.49.1\\spectre.console.0.49.1.nupkg.sha512"
   ],
   "logs": []

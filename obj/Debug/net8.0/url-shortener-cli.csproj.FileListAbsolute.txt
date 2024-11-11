@@ -16,3 +16,4 @@ D:\Apps\IlmhubProjs\url_shortener_app\url-shortener-cli\obj\Debug\net8.0\refint\
 D:\Apps\IlmhubProjs\url_shortener_app\url-shortener-cli\obj\Debug\net8.0\url-shortener-cli.pdb
 D:\Apps\IlmhubProjs\url_shortener_app\url-shortener-cli\obj\Debug\net8.0\url-shortener-cli.genruntimeconfig.cache
 D:\Apps\IlmhubProjs\url_shortener_app\url-shortener-cli\obj\Debug\net8.0\ref\url-shortener-cli.dll
+D:\Apps\IlmhubProjs\url_shortener_app\url-shortener-cli\bin\Debug\net8.0\QrCodeGenerator.dll
