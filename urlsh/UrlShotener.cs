@@ -6,7 +6,6 @@ namespace urlsh;
         // private readonly Dictionary<string, string> shortUrlToLongUrl = new();
         private readonly List<string> endings = new();
         private readonly List<char> letters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".ToList();
-        
         private Random rand = new Random();
 
         public string GenerateShortUrl(string url)
