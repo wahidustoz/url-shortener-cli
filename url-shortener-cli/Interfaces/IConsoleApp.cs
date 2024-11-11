@@ -1,0 +1,4 @@
+interface IConsoleApp  
+{  
+    void Run();  
+}
