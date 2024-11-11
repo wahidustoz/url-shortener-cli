@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "a0Al+l6dgvE=",
+  "dgSpecHash": "rzEi81Gh4IU=",
   "success": true,
-  "projectFilePath": "D:\\camp\\new\\urlsh\\urlsh.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\ilmhub\\urlShortener\\urlsh\\urlsh.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\spectre.console\\0.49.1\\spectre.console.0.49.1.nupkg.sha512"
+  ],
   "logs": []
 }

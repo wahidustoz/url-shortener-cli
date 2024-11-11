@@ -1,22 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using url.shortener.cli.urlsh;
+﻿using urlsh;
+using Spectre.Console;
 
-string host = Environment.GetEnvironmentVariable("HOSTNAME") ?? "https://url.ilmhub.uz";
-if (args.Length > 0)
+Dictionary<string, string> longUrlToShortUrl = new();
+Dictionary<string, string> shortUrlToLongUrl = new();
+
+while (true)
 {
-    host = args[0];
+    var url = AnsiConsole.Ask<string>("[green] Enter a URL:[/]");
+
+    if (!url.Contains("https://") && !url.Contains("http://"))
+    {
+        AnsiConsole.Markup("[red]Invalid URL.[/][yellow] Please enter a valid URL.[/]\n");
+        continue;
+    }
+
+    if (longUrlToShortUrl.ContainsKey(url))
+    {
+        Console.WriteLine($"[green] URL {url} has already been shortened to {longUrlToShortUrl[url]} [/] \n");
+        continue;
+    }
+
+    var shortUrl = new UrlShortener().GenerateShortUrl(url);
+    longUrlToShortUrl[url] = shortUrl;
+    shortUrlToLongUrl[shortUrl] = url;
+
+    Console.WriteLine($"[green]URL {url} has been shortened to {shortUrl}[/]");
 }
-
-UrlShortener urlShortener = new UrlShortener(host);
-
-Console.WriteLine("Введите длинный URL для сокращения:");
-string longUrl = Console.ReadLine() ?? throw new ArgumentException("Invalid URL");
-string shortUrl = urlShortener.ShortenUrl(longUrl);
-Console.WriteLine($"Сокращенный URL: {shortUrl}");
-
-Console.WriteLine("Введите короткий код для получения оригинального URL:");
-string inputCode = Console.ReadLine() ?? throw new ArgumentException("Invalid URL");
-string originalUrl = urlShortener.GetOriginalUrl(inputCode.Replace(host + "/", ""));
-Console.WriteLine($"Оригинальный URL: {originalUrl}");
-
